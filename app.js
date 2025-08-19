@@ -12,3 +12,6 @@ function addTask() {
 
   input.value = ""; // clear input
 }
+function removeTask(btn) {
+  btn.parentElement.remove(); // remove the li
+}
