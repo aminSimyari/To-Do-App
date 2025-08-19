@@ -36,3 +36,6 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+button:hover {
+  background: #45a049;
+}
