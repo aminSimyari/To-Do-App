@@ -61,3 +61,6 @@ li button {
   border-radius: 4px;
   cursor: pointer;
 }
+li button:hover {
+  background: #d32f2f;
+}
