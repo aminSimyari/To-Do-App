@@ -1,11 +1,27 @@
 body {
   font-family: sans-serif;
-  background: rgb(2, 14, 65);
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(283deg 69% 26%) 8%,
+    hsl(307deg 41% 36%) 17%,
+    hsl(325deg 30% 51%) 25%,
+    hsl(338deg 35% 65%) 33%,
+    hsl(350deg 40% 79%) 42%,
+    hsl(0deg 41% 91%) 50%,
+    hsl(2deg 100% 88%) 58%,
+    hsl(3deg 100% 82%) 67%,
+    hsl(4deg 100% 75%) 75%,
+    hsl(5deg 100% 68%) 83%,
+    hsl(5deg 100% 61%) 92%,
+    hsl(0deg 100% 50%) 100%
+  );
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
 .container {
   background: #fff;
   padding: 20px;
@@ -13,21 +29,25 @@ body {
   width: 350px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 h1 {
   text-align: center;
   margin-bottom: 20px;
 }
+
 .input-box {
   display: flex;
   gap: 10px;
   margin-bottom: 15px;
 }
+
 #taskInput {
   flex: 1;
   padding: 8px;
   border-radius: 6px;
   border: 1px solid #ccc;
 }
+
 button {
   padding: 8px 12px;
   background: #4caf50;
@@ -36,9 +56,11 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+
 button:hover {
   background: #45a049;
 }
+
 ul {
   list-style: none;
   padding: 0;
@@ -53,6 +75,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+
 li button {
   background: #f44336;
   border: none;
@@ -61,6 +84,7 @@ li button {
   border-radius: 4px;
   cursor: pointer;
 }
+
 li button:hover {
   background: #d32f2f;
 }
